@@ -1,8 +1,10 @@
+import './style.css'
 const Header = () => {
     return(
         <>
-        <header>
-            <p>Aqui vai o header</p>
+        <header className="Customizar-Header">
+            <img src='/disney.svg' alt="Logo" width="120px" height="60px" />
+            <h1>Os Melhores filmes</h1>
         </header>
         </>
     );
