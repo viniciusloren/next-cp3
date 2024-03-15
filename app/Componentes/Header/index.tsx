@@ -4,7 +4,7 @@ const Header = () => {
         <>
         <header className="Customizar-Header">
             <img src='/disney.svg' alt="Logo" width="120px" height="60px" />
-            <h1>Os Melhores filmes</h1>
+            <h1 className='texto'>Os Melhores filmes</h1>
         </header>
         </>
     );
